@@ -1,0 +1,42 @@
+name: Publish working simulator
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'simulator/operational_scenario_simulator.html'
+      - 'simulator/operational_scenario_simulator_offline.html'
+      - '.github/workflows/deploy-simulator.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: simulator-pages
+  cancel-in-progress: true
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Prepare static site
+        run: |
+          mkdir -p site
+          cp simulator/operational_scenario_simulator_offline.html site/index.html
+          cp simulator/operational_scenario_simulator_offline.html site/operational_scenario_simulator_offline.html
+          cp simulator/operational_scenario_simulator.html site/operational_scenario_simulator.html
+          touch site/.nojekyll
+
+      - name: Publish gh-pages branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./site
+          force_orphan: true
+          enable_jekyll: false
+          commit_message: 'deploy: publish working simulator'
