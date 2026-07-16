@@ -1,0 +1,2 @@
+scheduled_services,completed_services,canceled_services,cancel_rate_pct,otr_5_completed_pct,otr_15_completed_pct,operational_reliability_pct,avg_departure_delay_min,p95_departure_delay_min,avg_arrival_delay_min,avg_occupancy_pct,rotation_impacted_services,rotation_impacted_pct,total_propagated_delay_min,total_delay_cost_eur,total_margin_eur
+12000,11886,114,0.95,62.43,89.06,88.22,6.59,23.6,16.16,55.54,944,7.94,8914.8,3516571.03,243705009.42

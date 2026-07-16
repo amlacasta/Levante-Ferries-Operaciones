@@ -1,0 +1,6 @@
+scenario,assumption,delay_saved_min,delay_saved_pct,direct_delay_cost_saved_eur
+WEATHER y TECHNICAL -10%,Reducción proporcional hipotética; no es una predicción causal,3910.01,4.99,167329.84
+WEATHER -10%,Reducción proporcional hipotética; no es una predicción causal,2347.27,3.0,97415.39
+PROPAGACIÓN DE ROTACIONES -20%,Reducción proporcional hipotética; no es una predicción causal,1782.96,2.28,80029.94
+TECHNICAL -10%,Reducción proporcional hipotética; no es una predicción causal,1562.74,1.99,69914.45
+PORT_CONGESTION -10%,Reducción proporcional hipotética; no es una predicción causal,1105.96,1.41,51599.16

@@ -1,0 +1,3 @@
+delay_attribution,services,total_delay_min,avg_delay_min,total_delay_cost_eur,delay_share_pct
+ATTRIBUTED CAUSE,6511,64076.7,9.84,2826182.18,81.79
+UNATTRIBUTED / NORMAL VARIABILITY,5375,14267.8,2.65,690388.85,18.21
