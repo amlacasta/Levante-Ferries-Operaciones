@@ -19,9 +19,12 @@ El proyecto simula **12.000 servicios**, ocho rutas y una flota de **30 buques f
 
 ## Simulador interactivo
 
-- [Abrir simulador online](simulator/operational_scenario_simulator.html)
-- [Abrir simulador offline](simulator/operational_scenario_simulator_offline.html)
+- [Abrir simulador interactivo](https://raw.githack.com/amlacasta/Levante-Ferries-Operaciones/gh-pages/index.html)
+- [Abrir mediante GitHub Pages](https://amlacasta.github.io/Levante-Ferries-Operaciones/)
+- [Descargar HTML autosuficiente](simulator/operational_scenario_simulator_offline.html)
 - [Abrir presentación ejecutiva](deliverables/Proyecto_Control_Operativo_Ferries.pptx)
+
+> GitHub no ejecuta archivos HTML desde la vista de código. Usa el enlace interactivo o GitHub Pages; para trabajar sin conexión, descarga el HTML autosuficiente.
 
 El simulador permite modificar demanda, precio, meteorología, incidencias técnicas, congestión portuaria y costes de implementación. Recalcula puntualidad, ocupación, margen y resultados por ruta.
 
