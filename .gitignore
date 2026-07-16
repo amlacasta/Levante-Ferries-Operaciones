@@ -1,0 +1,29 @@
+# Entornos y dependencias
+.venv/
+venv/
+.deps/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Sistema y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Documentos internos de construcción
+context.md
+plan.md
+state.md
+
+# Salidas pesadas reproducibles
+data/raw/*.csv
+data/processed/*.csv
+simulator/*_offline.html
